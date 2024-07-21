@@ -31,7 +31,7 @@ export const TodoItem = ({ todo }: Props) => {
       </div>
 
     <button style={{border: "none", background: "none"}} onClick={() => removeTodo(todo.id)}>
-      <Image src="/delete.png" alt="delete-button" 
+      <Image src="./delete.png" alt="delete-button" 
       width={16} height={16}  />
     </button>
     </div>
